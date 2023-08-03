@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    /* background-color: rgb(168, 88, 88); */
+    color: #fff;
+}
+.name{
+    height: auto;
+    width: 100vh;
+    margin: auto;
+    /* background-color: rgb(168, 88, 88); */
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    margin: 5px 15px;
+}
+.name img{
+    margin-top: 10px;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border: 2px solid rgb(21, 25, 25);
+    cursor: pointer;
+}
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content .introduction,.Education ,.Contribution{
+    width:400px;
+    margin-top: 20px;
+ /* border: 2px solid gray; */
+ border-top: #fff;
+ border-bottom: #000;
+ border-left: yellowgreen;
+ border-right: rgb(152, 179, 112);
+ border-radius: 8px;
+ background-color: #000;
+ flex-shrink: auto;
+ /* background-color: rgb(168, 88, 88); */
+}
+.content h3{
+    text-align: center;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid gray;
+    background-color: aquamarine;
+    color: #000;
+   
+    cursor: pointer;
+}
+.content h3:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 20px #0ef;
+}
+.content p,li{
+    line-height: 1.5em;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    position: relative;
+    left: 5px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.Contribution li{
+    list-style-type: circle ;
+}
